@@ -37,15 +37,11 @@ This project analyzes lending loan data to uncover relationships between borrowe
 
 ## 📊 Dashboard Screenshots
 ### Report 1: Loan Performance Analysis
-![Loan Performance](reports/screenshots/report1_loan_performance.png)
+![Loan Performance](reports/screenshots/report1_loan_performance.png.png)
 
 ### Report 2: Borrower Profile Analysis  
-![Borrower Profile](reports/screenshots/report2_borrower_profile.png)
+![Borrower Profile](reports/screenshots/report2_borrower_profile.png.png)
 
-## 🔍 Key Insights
-- [Add your key findings here]
-- [Performance patterns discovered]
-- [Risk factors identified]
 
 ## 📋 DAX Formulas Used
 - **Remaining Installments**: `CEILING(BorrowerDetails[out_prncp] / RELATED(LoanDetails[installment]), 1)`
@@ -59,10 +55,9 @@ Feel free to fork this project and submit pull requests for improvements.
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## 👨‍💻 Author
-[Your Name]
-- LinkedIn: [Your LinkedIn]
-- Email: [Your Email]
+- ### SIVASURYA SURESHKUMAR
+- LinkedIn: [SIVASURYA-SURESHKUMAR](https://www.linkedin.com/in/sivasurya-sureshkumar/)
+- Email: [sivasurya.sureshkumar](sivasurya.sureshkumar@gmail.com)
 
 ## 🙏 Acknowledgments
-- Dataset source: [Credit the data source]
 - Inspired by real-world banking analytics needs
