@@ -48,8 +48,6 @@ This project analyzes lending loan data to uncover relationships between borrowe
 - **Non-Verified Borrowers Count**: `COUNTROWS(FILTER(BorrowerDetails, BorrowerDetails[verification_status] = "Not Verified"))`
 - **Fully Paid Loan Percentage**: `DIVIDE(COUNTROWS(FILTER(LoanDetails, LoanDetails[loan_status] = "Fully Paid")), COUNTROWS(LoanDetails)) * 100`
 
-## 🤝 Contributing
-Feel free to fork this project and submit pull requests for improvements.
 
 ## 📝 License
 This project is licensed under the MIT License - see the LICENSE file for details.
